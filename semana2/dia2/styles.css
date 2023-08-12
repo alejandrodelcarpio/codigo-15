@@ -1,0 +1,13 @@
+h1{
+color: tomato;
+font-size: 30px;
+}
+.selector-clase{
+    color: blue;
+    font-size: 30px;
+}
+#selector-id{
+    color: yellowgreen;
+    font-size: 24px;
+
+}
