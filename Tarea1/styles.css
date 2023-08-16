@@ -1,8 +1,29 @@
-.Beans-Studios{
-    text-align: left;
-    /*display: flex;
-    justify-content: left;*/
+body{
+    margin: 0;
 }
+
 *{
     color: white;
 }
+.img-top{
+    position: relative;
+    
+}
+.img-beans{
+    position: absolute;
+    top: 25px;
+}
+.img-menu{
+    position: relative;
+    left: 85%;
+}
+.saludo-inicial{
+    position: relative;    
+}
+.img-saludo{
+    position: absolute;
+    width: 85px;
+}
+
+
+
