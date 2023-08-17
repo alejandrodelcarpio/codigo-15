@@ -1,0 +1,22 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_128_256)">
+<circle cx="24" cy="20" r="20" fill="white"/>
+</g>
+<path d="M34 19.4C34.0017 20.7434 33.7372 22.074 33.2217 23.3146C32.7061 24.5553 31.9499 25.6815 30.9966 26.6282C30.0511 27.572 28.9288 28.3203 27.694 28.8302C26.4592 29.3401 25.1359 29.6017 23.8 29.5999C18.1665 29.5999 13.6 25.0334 13.6 19.4C13.5964 16.7846 14.601 14.2684 16.405 12.3747C17.3568 11.3703 18.5036 10.5707 19.7751 10.0248C21.0467 9.47894 22.4162 9.19826 23.8 9.19996C25.1359 9.19823 26.4592 9.4598 27.694 9.96971C28.9288 10.4796 30.0511 11.2279 30.9966 12.1717C31.9499 13.1184 32.7061 14.2446 33.2217 15.4853C33.7372 16.7259 34.0017 18.0565 34 19.4V19.4Z" stroke="#EB4B89" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M33.9999 19.4001C32.5118 19.4001 28.4063 18.8391 24.7317 20.4522C20.74 22.2051 17.8498 24.9239 16.5901 26.6151" stroke="#EB4B89" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19.975 9.94169C21.5713 11.4151 25.0546 15.1661 26.35 18.8901C27.6454 22.6142 28.1248 27.1929 28.4206 28.496" stroke="#EB4B89" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13.6786 18.125C15.6054 18.2413 20.7059 18.3458 23.9699 16.952C27.2339 15.5582 30.0424 12.9944 31.0058 12.1809M14.365 23.2826C15.2638 25.4582 16.8848 27.2577 18.955 28.378" stroke="#EB4B89" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13.6 19.4C13.5964 16.7846 14.601 14.2684 16.405 12.3747M23.8 9.19996C22.4162 9.19826 21.0467 9.47894 19.7751 10.0248C18.5036 10.5707 17.3568 11.3703 16.405 12.3747M27.88 10.0486C29.0416 10.5568 30.0984 11.2768 30.9966 12.1717C31.9499 13.1184 32.7061 14.2446 33.2217 15.4853C33.7372 16.7259 34.0017 18.0565 34 19.4C34 20.6556 33.773 21.8587 33.3574 22.9699M23.8 29.5999C25.1359 29.6017 26.4592 29.3401 27.694 28.8302C28.9288 28.3203 30.0511 27.572 30.9966 26.6282" stroke="#EB4B89" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<filter id="filter0_d_128_256" x="0" y="0" width="48" height="48" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_128_256"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_128_256" result="shape"/>
+</filter>
+</defs>
+</svg>
