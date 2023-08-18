@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    
+    font-family: 'Outfit', sans-serif;
+    
+
+}
+.container{
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+.box{
+    background-color: hsl(216, 50%, 16%);
+    padding: 15px;
+    border-radius: 25px;
+    width: 20%;
+    text-align:left;
+    align-items: center;
+    box-shadow: 22px 22px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 22px 22px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 22px 22px 5px 0px rgba(0,0,0,0.75);
+    
+}
+.img{
+    height: 40%;
+    border-radius: 25px;
+    text-align: center;
+}
+.tittle{
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+}
+.parrafo{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: hsl(215, 32%, 27%);
+}
+.inf-eth-reloj{
+    display: flex;
+    justify-content: space-between;
+}
+.eth{
+    color: hsl(178, 100%, 50%);
+}
+.reloj{
+    color: hsl(215, 32%, 27%);
+}
+.line{
+    color: hsl(215, 32%, 27%);
+}
+.div__autor{
+    display: flex;
+    justify-content:normal;
+    align-items: center;
+    
+}
+
+.avatar{
+    height: 30px;
+    border: 0.5px solid white;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.autor__nombre{
+    color:hsl(215, 32%, 27%);
+   
+}
+.autor__apellido{
+    color: hsl(0, 0%, 100%);
+}
