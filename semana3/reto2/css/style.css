@@ -1,23 +1,18 @@
 *{
     margin: 0;
     padding: 0;
-
 }
 
 body {
     
     font-family: 'Outfit', sans-serif;
-    
-
 }
 .container{
     height: 100vh;
     background-color: hsl(217, 54%, 11%);
     display: flex;
     justify-content: center;
-    text-align: center;
-    
-    
+    align-items: center;
 }
 
 .box{
@@ -25,15 +20,19 @@ body {
     padding: 15px;
     border-radius: 25px;
     width: 20%;
+    height:max-content;
     text-align:left;
     align-items: center;
+    position: relative;
+
+/*Aplicando Sombra a la caja principal*/
     box-shadow: 22px 22px 5px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 22px 22px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 22px 22px 5px 0px rgba(0,0,0,0.75);
     
 }
 .img{
-    height: 40%;
+    max-width: 100%;
     border-radius: 25px;
     text-align: center;
 }
@@ -53,28 +52,46 @@ body {
 .eth{
     color: hsl(178, 100%, 50%);
 }
+.eth::before{
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url(".././images/icon-ethereum.svg");
+   
+    background-size: 20px 20px;
+}
 .reloj{
     color: hsl(215, 32%, 27%);
+}
+.reloj::before{
+    content: "";
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-image: url("../images/icon-clock.svg");
+    background-size: 25px 25px;
 }
 .line{
     color: hsl(215, 32%, 27%);
 }
 .div__autor{
     display: flex;
-    justify-content:normal;
+    justify-content:left;
     align-items: center;
     
 }
 
 .avatar{
-    height: 30px;
+    height: 25px;
     border: 0.5px solid white;
     border-radius: 50px;
-    margin-top: 30px;
+    margin: 10px;
+    
 }
 .autor__nombre{
     color:hsl(215, 32%, 27%);
-   
+    margin: 10px;
 }
 .autor__apellido{
     color: hsl(0, 0%, 100%);
