@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+/* -------------------------------------------------> */
+
+
+.container{
+    display: grid;
+    grid-template-areas: "header menu menu menu"
+                          "hero hero hero  hero"
+                          "main main empty image"
+                          "main main empty extra"
+                          "banner banner banner banner" ;
+    
+    
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+}
+
+
+.header{
+    background-color: rgb(25, 25, 57);
+    grid-area: header;
+    height: 5vh;
+}
+
+.menu{
+    background-color: rgb(252, 73, 73);
+    grid-area: menu;
+}
+
+.hero{
+    background-color:skyblue;
+    grid-area: hero;
+    height: 40vh;
+    
+}
+
+.main{
+    background-color: rgb(25, 25, 57);
+    grid-area: main;
+    height: 20vh;
+    
+    
+}
+
+.empty{
+    background-color: white;
+    grid-area: empty;
+}
+
+.image{
+    background-color: rgb(201, 255, 201);
+    grid-area: image;
+    color: black;
+}
+
+.extra{
+    background-color: rgb(92, 167, 92);
+    grid-area: extra;
+}
+
+.banner{
+    background-color: rgb(255, 205, 40);
+    grid-area: banner;
+    height: 10vh;
+}
+
+
+/* ---------------------------------------------> 
+.container{
+    display: grid;
+    grid-template-columns: 200px 100px;
+    grid-template-rows: 100px 50px 20px 70px;
+}
+.container div{
+    border: solid;
+    
+} */
+
+
+@media only screen and (max-width: 600px){
+ 
+    .container{
+        display: grid;
+        grid-template-areas: "header"
+                              "menu"
+                              "hero"
+                              "main"
+                              "banner"
+                              "extra"
+                              "image"
+                              "empty" ;
+    
+    .header{
+        height: 5vh;
+    }
+    .menu{
+        height: 5vh;
+    }
+    .hero{
+        height: 20vh;
+    }
+    .main{
+        height: 15vh;
+    }
+    .extra{
+        height: 15vh;
+    }
+    .image{
+        height: 15vh;
+    }
+}
+}
